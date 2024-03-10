@@ -20,8 +20,8 @@ type weatherService struct {
 
 func (w *weatherService) GetWeather(ctx context.Context, req *weatherv1.GetWeatherRequest) (*weatherv1.GetWeatherResponse, error) {
 	return &weatherv1.GetWeatherResponse{
-		Temperature: 1.0,
-		Conditions:  weatherv1.Condition_CONDITION_SUNNY,
+		Temperature: 4.0,
+		Conditions:  weatherv1.Condition_CONDITION_RAINY,
 	}, nil
 }
 
