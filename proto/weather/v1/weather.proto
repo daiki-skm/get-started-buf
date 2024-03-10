@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package weather.v1;
+package proto.weather.v1;
 
 enum Condition {
   CONDITION_UNSPECIFIED = 0;
